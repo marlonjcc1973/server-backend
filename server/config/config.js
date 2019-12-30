@@ -18,6 +18,6 @@ let urlDB;
 if (process.env.NODE_ENV === 'dev') {
     urlDB = 'mongodb://localhost:27017/aula';
 } else {
-    urlDB = process.env.MONGO_URI;
+    urlDB = 'mongodb+srv://marlonjcc:gGu9WtIxjRzdp992@cluster0-loooq.mongodb.net/aula';
 }
 process.env.URLDB = urlDB;
